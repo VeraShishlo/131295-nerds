@@ -2,131 +2,203 @@
 
 <html lang="ru">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Дизайн-студия</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>Дизайн-студия</title>
+    </head>
 
-  <body>
-    <header class="main-header">
-    <div class="container">
-      <div class="index-logo">
-        <img src="img/index-logo.png" alt="Дизайн-студия"> <!--width="100" height="100"-->
-      </div>
-      <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="#">Студия</a>
-          </li>
-          <li>
-            <a href="#">Клиенты</a>
-          </li>
-          <li>
-            <a href="/catalog.html">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="basket">
-        <a href="#">Корзина</a>
-      </div>
-      <div class="shop-welcome">
-        <h1>ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН ГОТОВЫХ МАКЕТОВ</h1>
-      </div>
-    </header>
+    <body>
+        <header class="main-header">
+            <div class="container">
+                <div class="index-logo">
+                    <img src="img/index-logo.png" alt="Дизайн-студия"> <!--width="100" height="100"-->
+                  </div>
+                  <nav class="main-navigation">
+                      <ul>
+                          <li>
+                              <a href="#">Студия</a>
+                          </li>
+                          <li>
+                              <a href="#">Клиенты</a>
+                          </li>
+                          <li>
+                              <a href="/catalog.html">Магазин</a>
+                          </li>
+                          <li>
+                              <a href="#">Контакты</a>
+                          </li>
+                      </ul>
+                  </nav>
+                  <div class="cart">
+                      <a href="#">Корзина</a>
+                  </div>
+                  <div class="shop-welcome">
+                      <h1>Добро пожаловать в магазин готовых макетов</h1>
+                  </div>
+        </header>
 
-    <div class="content-shop">
-      <div class="content-shop-left">
-        <div class="content-value">
-          <b>СТОИМОСТЬ:</b>
-        </div>
-        <!--вставить сортировку по стоимости-->
-        <div class="sort-kind">
-          <b>СЕТКА:</b>
-          <input type="checkbox" id="check-1"><label for="check-1">Адаптивная</label><br>
-          <input type="checkbox" id="check-2"><label for="check-2">Фиксированная</label><br>
-          <input type="checkbox" id="check-3"><label for="check-3">Резиновая</label>
-        </div>
-        <div class="sort-features">
-          <b>ОСОБЕННОСТИ:</b>
-          <input type="checkbox" id="check-1"><label for="check-1">Слайдер</label><br>
-          <input type="checkbox" id="check-2"><label for="check-2">Блок преимуществ</label><br>
-          <input type="checkbox" id="check-3"><label for="check-3">Новости</label><br>
-          <input type="checkbox" id="check-4"><label for="check-4">Галерея</label><br>
-          <input type="checkbox" id="check-5"><label for="check-5">Корзина</label>
-        <a class="button" href="#">Показать</a>
-      </div>
-      <div class="shop-content-right">
-        <div class="sorting">
-          <!-- какие теги применить для
-          СОРТИРОВАТЬ: ПО ЦЕНЕ  ПО ТИПУ  ПО ФУНКЦИОАЛУ-->
-          <a class="btn-to-lowest" href="#"></a>
-          <a class="btn-to-highest" href="#"></a>
-        </div>
-        <article>
-          <img src="#" alt="product">
-        </article>
-        <article>
-          <img src="#" alt="product">
-        </article>
-        <article>
-          <img src="#" alt="product">
-        </article>
-        <article>
-          <img src="#" alt="product">
-        </article>
-        <article>
-          <img src="#" alt="product">
-        </article>
-        <article>
-          <img src="#" alt="product">
-        </article>
-        <div class="paginator">
-            <a href="#1">1</a>
-            <a href="#2">2</a>
-            <a href="#3">3</a>
-            <a href="#next">СЛЕДУЮЩАЯ</a>
-        </div>
-      </div>
-    </div>
+        <section class="content-shop">
+            <div class="content-shop-left">
+                <div class="content-value">
+                    <strong>Стоимость:</strong>
+                </div>
+                <div class="range-filter">
+                    <div class="range-controls">
+                        <!--<div class="scale">
+                            <div style="margin-left:0; width:100px;" class="bar"></div>-->
+                        </div>
+                        <div class="toggle min-toggle"></div>
+                        <div class="toggle max-toggle"></div>
+                    </div>
+                    <div class="price-controls">
+                    от <input class="min-price" type="text" value="0">
+                    до <input class="max-price" type="text" value="15 000">
+                    </div>
+                </div>
 
-    <div class="contacts">
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5984565545396!2d30.32190322663266!3d59.93880493055546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sru!4v1453454125474" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-      <div class="address">
-        <h2>NERDS DESIGN STUDIO</h2>
-	    <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-	    тел. +7 (812) 275-75-75</p>
-	    <a href="#">НАПИШИТЕ НАМ</a>
-      </div>
-      <div class="logo-on-map">
-        <img src="#" alt="design studio">
-      </div>
-    </div>
+                <div class="sort-kind">
+                    <form>
+                        <b>Сетка:</b>
+                        <input type="checkbox" id="check-1"><label for="check-1">Адаптивная</label><br>
+                        <input type="checkbox" id="check-2"><label for="check-2">Фиксированная</label><br>
+                        <input type="checkbox" id="check-3"><label for="check-3">Резиновая</label>
+                    </form>
+                </div>
+                <div class="sort-features">
+                    <form>
+                        <b>Особенности:</b>
+                        <input type="checkbox" id="check-4"><label for="check-4">Слайдер</label><br>
+                        <input type="checkbox" id="check-5"><label for="check-5">Блок преимуществ</label><br>
+                        <input type="checkbox" id="check-6"><label for="check-6">Новости</label><br>
+                        <input type="checkbox" id="check-7"><label for="check-7">Галерея</label><br>
+                        <input type="checkbox" id="check-8"><label for="check-8">Корзина</label>
+                        <intut type="submit" class="button" value="Показать">
+                    </form>
+                </div>
+            </div>
+            <div class="shop-content-right">
+                <div class="sorting">
+                    <a href="#" class="sort">По цене</a>
+                    <a href="#" class="sort">По дате</a>
+                    <a href="#" class="sort">По функционалу</a>
+                    <div class="sort-arrow">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <ul>
+                    <li>
+                        <div class="images">
+                            <img src="#"> <!--width=300 height=20-->
+                            <img src="#" alt="product"> <!--width=300 height=300-->
+                        </div>
+                        <div class="title">
+                            <strong>Sunset</strong>
+                            <p>Интернет-магазин с личным кабинетом</p>
+                        </div>
+                        <div class="price">10 000р.</div>
+                    </li>
+                    <li>
+                        <div class="images">
+                            <img src="#"> <!--width=300 height=20-->
+                            <img src="#" alt="product"> <!--width=300 height=300-->
+                        </div>
+                        <!--<div class="title">
+                            <strong>Текст</strong>
+                            <p>Текст</p>
+                        </div>
+                        <div class="price">цена.</div>-->
+                    </li>
+                    <li>
+                        <div class="images">
+                            <img src="#"> <!--width=300 height=20-->
+                            <img src="#" alt="product"> <!--width=300 height=300-->
+                        </div>
+                        <!--<div class="title">
+                            <strong>Текст</strong>
+                            <p>Текст</p>
+                        </div>
+                        <div class="price">цена.</div>-->
+                    </li>
+                    <li>
+                        <div class="images">
+                            <img src="#"> <!--width=300 height=20-->
+                            <img src="#" alt="product"> <!--width=300 height=300-->
+                        </div>
+                        <!--<div class="title">
+                            <strong>Текст</strong>
+                            <p>Текст</p>
+                        </div>
+                        <div class="price">цена.</div>-->
+                    </li>
+                    <li>
+                        <div class="images">
+                            <img src="#"> <!--width=300 height=20-->
+                            <img src="#" alt="product"> <!--width=300 height=300-->
+                        </div>
+                        <!--<div class="title">
+                            <strong>Текст</strong>
+                            <p>Текст</p>
+                        </div>
+                        <div class="price">цена.</div>-->
+                    </li>
+                    <li>
+                        <div class="images">
+                            <img src="#"> <!--width=300 height=20-->
+                            <img src="#" alt="product"> <!--width=300 height=300-->
+                        </div>
+                        <!--<div class="title">
+                            <strong>Текст</strong>
+                            <p>Текст</p>
+                        </div>
+                        <div class="price">цена.</div>-->
+                    </li>
+                </ul>
+                <div class="paginator">
+                    <a href="#1">1</a>
+                    <a href="#2">2</a>
+                    <a href="#3">3</a>
+                    <a href="#next">Следующая</a>
+                </div>
+            </div>
+        </section>
 
-    <footer class="main-footer">
-      <div class="container">
-        <div class="social">
-	      <div class="social-vk">
-	        <a href="#"><img src="@" alt="vkontacte"></a>
-	      </div>
-	      <div class="social-fb">
-	        <a href="#"><img src="@" alt="facebook"></a>
-	      </div>
-	      <div class="social-inst">
-	        <a href="#"><img src="@" alt="instagram"></a>
-	      </div>
-	    </div>
-	    <div class="discount">
-	      <h1>Давайте дружить, это выгодно!</h1>
-	      <p>Скидка 10% для друзей из социальных сетей.</p>
-	    </div>
-      </div>
-    </footer>
+        <section class="contacts">
+            <div class="container">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed3?pb=!1m18!1m12!1m3!1d1998.5984565545396!2d30.32190322663266!3d59.93880493055546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sru!4v1453454125474" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="address">
+                    <strong>Nёrds design studio</strong>
+                    <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                    <p>тел. +7 (812) 275-75-75</p>
+                    <a href="#">Напишите нам</a>
+                </div>
+            </div>
+        </section>
 
-  </body>
+        <footer class="main-footer">
+            <div class="container">
+                <div class="social">
+                  <div class="social-vk">
+                      <a href="#"><img src="@" alt="vkontacte"></a>
+                  </div>
+                  <div class="social-fb">
+                      <a href="#"><img src="@" alt="facebook"></a>
+                  </div>
+                  <div class="social-inst">
+                      <a href="#"><img src="@" alt="instagram"></a>
+                  </div>
+              </div>
+              <div class="discount">
+                  <h1>Давайте дружить, это выгодно!</h1>
+                  <p>Скидка 10% для друзей из социальных сетей.</p>
+              </div>
+            </div>
+        </footer>
+
+    </body>
 
 </html>
