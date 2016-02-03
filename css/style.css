@@ -1,108 +1,106 @@
 body {
 	font-size: 14px;
 	line-height: 30px;
-	color: #000000;
+	color: #000;
 	font-family: roboto medium;
 }
 
-h1 {
+h1, strong {
 	font-size: 36px;
 	line-height: 36px;
-	color: #000000;
-	font-family: roboto medium;
-}
-
-strong {
-	font-size: 36px;
-	line-height: 36px;
-	color: #000000;
-	font-family: roboto medium;
 }
 
 p {
 	font-size: 16px;
 	line-height: 22px;
-	color: #000000;
-	font-family: roboto medium;
+}
+
+.container {
+	width: 880px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .features-item {
 	display: inline-block;
+	vertical-align: top;
 	background-color: #A9A9F5;
 	opacity: 0.7;
-	height: 270px;
 	width: 300px;
-	vertical-align: top;
 }
+
 .index-content-left {
 	display: inline-block;
+	vertical-align: top;
 	background-color: #FAAC58;
 	opacity: 0.7;
 	width: 620px;
-	vertical-align: top;
 }
+
 .index-content-right {
 	display: inline-block;
+	vertical-align: top;
 	background-color: #FAAC58;
 	opacity: 0.7;
 	width: 230px;
-	vertical-align: top;
 }
 
 .social {
 	display: inline-block;
+	vertical-align: top;
 	background-color: #F6CEF5;
 	opacity: 0.7;
 	width: 230px;
-	vertical-align: top;
 }
+
 .discount {
 	display: inline-block;
+	vertical-align: top;
 	background-color: #F6CEF5;
 	opacity: 0.7;
 	width: 620px;
-	vertical-align: top;
 }
 
 .content-shop-left {
 	display: inline-block;
-	width: 300px;
 	vertical-align: top;
+	width: 300px;
 }
 
 .shop-content-right {
 	display: inline-block;
-	width: 600px;
 	vertical-align: top;
+	width: 600px;
 }
 
 .content-shop-left {
     display: inline-block;
+    vertical-align: top;
     width: 300px;
     background-color: #FAAC58;
     opacity: 0.7;
-    vertical-align: top;
 }
 
 .shop-content-right {
     display: inline-block;
+    vertical-align: top;
     width: 700px;
     background-color: #FAAC58;
     opacity: 0.7;
-    vertical-align: top;
 }
 
 .social {
     display: inline-block;
+    vertical-align: top;
     background-color: #F6CEF5;
     opacity: 0.7;
     width: 230px;
-    vertical-align: top;
 }
+
 .discount {
     display: inline-block;
+    vertical-align: top;
     background-color: #F6CEF5;
     opacity: 0.7;
     width: 620px;
-    vertical-align: top;
 }
