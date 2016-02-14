@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="clearfix">
                     <div class="index-logo">
-                        <a href="index.html"><img src="img/logo-index.png" width="140" height="56" alt="Дизайн-студия"></a>
+                        <a href="index.html"><img src="img/logo-index.png" width="140" height="55" alt="Дизайн-студия"></a>
                     </div>
 
                     <div class="cart">
@@ -31,7 +31,7 @@
                                 <a href="#">Клиенты</a>
                             </li>
                             <li>
-                                <a href="/catalog.html">Магазин</a>
+                                <a href="/catalog.html" class="current-page">Магазин</a>
                             </li>
                             <li>
                                 <a href="#">Контакты</a>
@@ -56,7 +56,7 @@
 
                         <div class="range-controls">
                             <div class="scale">
-                                <div style="margin-left: 0; width: 190px;" class="bar"></div>
+                                <div class="bar"></div>
                             </div>
                         <div class="toggle min-toggle"></div>
                         <div class="toggle max-toggle"></div>
@@ -67,9 +67,9 @@
                         </div>
 
                         <p class="form-title">Сетка:</p>
-                        <input type="checkbox" id="check-1"><label for="check-1">Адаптивная</label><br>
-                        <input type="checkbox" id="check-2"><label for="check-2">Фиксированная</label><br>
-                        <input type="checkbox" id="check-3"><label for="check-3">Резиновая</label>
+                        <input type="radio" id="check-1"><label for="check-1">Адаптивная</label><br>
+                        <input type="radio" id="check-2"><label for="check-2">Фиксированная</label><br>
+                        <input type="radio" id="check-3"><label for="check-3">Резиновая</label>
 
                         <p class="form-title">Особенности:</p>
                         <input type="checkbox" id="check-4"><label for="check-4">Слайдер</label><br>
@@ -185,7 +185,7 @@
                             </li>
                         </ul>
                         <div class="paginator">
-                            <a href="#1">1</a>
+                            <a href="#1" class="active-link">1</a>
                             <a href="#2">2</a>
                             <a href="#3">3</a>
                             <a href="#next">Следующая</a>
@@ -196,12 +196,20 @@
         </section>
 
         <section class="contacts">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5984565545396!2d30.32190322663266!3d59.93880493055546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sru!4v1453454125474" width="1300" height="415" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <div class="address">
-                <strong>Nёrds design studio</strong>
-                <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                <p>тел. +7 (812) 275-75-75</p>
-                <a href="#">Напишите нам</a>
+            <div class="map" id="map">
+                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=hbpTQE8ZSLGgum9yWRD4UjqrhbtIGP6t&width=100%&height=415&lang=ru_RU&sourceType=constructor"></script>
+            </div>
+            <div class="container">
+                <div class="address">
+                    <p>Nёrds design studio</p>
+                    <p>191186, Санкт-Петербург,<br>
+                    ул. Б. Конюшенная, д. 19/8</p>
+                    <p>тел. +7 (812) 275-75-75</p>width="1300" height="415"
+                    <a href="#">Напишите нам</a>
+                </div>
+                <div class="logo-map">
+                    <img src="img/logo-map.png" width="160" height="170" alt="">
+                </div>
             </div>
         </section>
 
@@ -209,13 +217,13 @@
             <div class="container">
                 <div class="social">
                     <div class="social-vk">
-                        <a href="#"><img src="@" alt="vkontacte"></a>
+                        <a href="#"><img src="@" width="30" height="20" alt="vkontacte"></a>
                     </div>
                     <div class="social-fb">
-                        <a href="#"><img src="@" alt="facebook"></a>
+                        <a href="#"><img src="@" width="20" height="30" alt="facebook"></a>
                     </div>
                     <div class="social-inst">
-                        <a href="#"><img src="@" alt="instagram"></a>
+                        <a href="#"><img src="@" width="25" height="25" alt="instagram"></a>
                     </div>
                 </div>
                 <div class="discount">
