@@ -6,9 +6,8 @@
         <meta charset="utf-8">
         <title>Дизайн-студия</title>
         <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style-min.css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     </head>
 
     <body>
@@ -18,11 +17,9 @@
                     <div class="index-logo">
                         <a href="index.html"><img src="img/logo-index.png" width="140" height="55" alt="Дизайн-студия"></a>
                     </div>
-
                     <div class="cart">
                         <a href="#">Корзина</a>
                     </div>
-
                     <nav class="main-navigation">
                         <ul>
                             <li>
@@ -54,35 +51,34 @@
                         <div class="content-value">
                             <p class="form-title">Стоимость:</p>
                         </div>
-
                         <div class="range-controls">
                             <div class="scale">
                                 <div class="bar"></div>
                             </div>
-                        <div class="toggle min-toggle"></div>
-                        <div class="toggle max-toggle"></div>
+                            <div class="toggle min-toggle"></div>
+                            <div class="toggle max-toggle"></div>
                         </div>
                         <div class="price-controls">
-                            <label>от</label><input class="min-price" type="text" placeholder="0">
-                            <label>до</label><input class="max-price" type="text" placeholder="15000">
+                            <label>от</label>
+                            <input class="min-price" type="text" placeholder="0">
+                            <label>до</label>
+                            <input class="max-price" type="text" placeholder="15000">
                         </div>
-
                         <p class="form-title">Сетка:</p>
                         <ul>
-	                        <li>
-	                            <input type="radio" name="radiobutton" id="check-1" checked>
+                            <li>
+                                <input type="radio" name="radiobutton" id="check-1" checked>
                                 <label class="radio-check" for="check-1"><span>Адаптивная</span></label>
-	                        </li>
-	                        <li>
-	                            <input type="radio" name="radiobutton" id="check-2">
+                            </li>
+                            <li>
+                                <input type="radio" name="radiobutton" id="check-2">
                                 <label class="radio-check" for="check-2"><span>Фиксированная</span></label>
-	                        </li>
-	                        <li>
-	                            <input type="radio" name="radiobutton" id="check-3">
+                            </li>
+                            <li>
+                                <input type="radio" name="radiobutton" id="check-3">
                                 <label class="radio-check" for="check-3"><span>Резиновая</span></label>
-	                        </li>
+                            </li>
                         </ul>
-
                         <p class="form-title">Особенности:</p>
                         <ul>
                             <li>
@@ -90,21 +86,21 @@
                                 <label class="checkbox-label" for="check-4"><span>Слайдер</span></label>
                             </li>
                             <li>
-	                            <input type="checkbox" id="check-5">
+                                <input type="checkbox" id="check-5">
                                 <label class="checkbox-label" for="check-5"><span>Блок преимуществ</span></label>
-	                        </li>
-	                        <li>
-	                            <input type="checkbox" id="check-6" checked>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-6" checked>
                                 <label class="checkbox-label" for="check-6"><span>Новости</span></label>
-	                        </li>
-	                        <li>
-	                            <input type="checkbox" id="check-7">
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-7">
                                 <label class="checkbox-label" for="check-7"><span>Галерея</span></label>
-	                        </li>
-	                        <li>
-	                            <input type="checkbox" id="check-8">
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-8">
                                 <label class="checkbox-label" for="check-8"><span>Корзина</span></label>
-	                        </li>
+                            </li>
                         </ul>
                         <input type="submit" class="button" value="Показать">
                     </form>
@@ -122,7 +118,7 @@
                     </div>
                     <div class="products">
                         <ul>
-                            <li>
+                            <li class="product">
                                 <div class="images">
                                     <div class="images-header">
                                         <span></span>
@@ -133,11 +129,12 @@
                                 </div>
                                 <div class="title">
                                     <strong>Aviator</strong>
-                                    <p>Одностраничный макет<br>с авторским дизайном</p>
+                                    <p>Одностраничный макет<br>
+                                    с авторским дизайном</p>
                                     <a href="#" class="btn-price">8000 р.</a>
                                 </div>
                             </li>
-                            <li>
+                            <li class="product">
                                 <div class="images">
                                     <div class="images-header">
                                         <span></span>
@@ -148,11 +145,12 @@
                                 </div>
                                 <div class="title">
                                     <strong>Sunset</strong>
-                                    <p>Интернет-магазин<br>с личным кабинетом</p>
+                                    <p>Интернет-магазин<br>
+                                    с личным кабинетом</p>
                                     <a href="#" class="btn-price">10000 р.</a>
                                 </div>
                             </li>
-                            <li>
+                            <li class="product">
                                 <div class="images">
                                     <div class="images-header">
                                         <span></span>
@@ -163,13 +161,14 @@
                                 </div>
                                 <div class="title">
                                     <strong>Forte</strong>
-                                    <p>Отличный макет<br>для личного блога</p>
+                                    <p>Отличный макет<br>
+                                    для личного блога</p>
                                     <a href="#" class="btn-price">5000 р.</a>
                                 </div>
                             </li>
-                            <li>
+                            <li class="product">
                                 <div class="images">
-                                     <div class="images-header">
+                                    <div class="images-header">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -178,13 +177,14 @@
                                 </div>
                                 <div class="title">
                                     <strong>Modern organic thai</strong>
-                                    <p>Сайт для ресторана<br>быстрого питания</p>
+                                    <p>Сайт для ресторана<br>
+                                    быстрого питания</p>
                                     <a href="#" class="btn-price">12000 р.</a>
                                 </div>
                             </li>
-                            <li>
+                            <li class="product">
                                 <div class="images">
-                                     <div class="images-header">
+                                    <div class="images-header">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -193,13 +193,14 @@
                                 </div>
                                 <div class="title">
                                     <strong>Avenue</strong>
-                                    <p>Макет для блога<br>о путешествиях</p>
+                                    <p>Макет для блога<br>
+                                    о путешествиях</p>
                                     <a href="#" class="btn-price">8000 р.</a>
                                 </div>
                             </li>
-                            <li>
+                            <li class="product">
                                 <div class="images">
-                                     <div class="images-header">
+                                    <div class="images-header">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -208,7 +209,8 @@
                                 </div>
                                 <div class="title">
                                     <strong>Dovetail</strong>
-                                    <p>Интернет-магазин<br>с галереей товаров</p>
+                                    <p>Интернет-магазин<br>
+                                    с галереей товаров</p>
                                     <a href="#" class="btn-price">14000 р.</a>
                                 </div>
                             </li>
@@ -251,30 +253,31 @@
             </div>
         </footer>
 
-        <div class="pop-up-form"> 
-            <button class="icon-close"></button> 
-            <form> 
-                <div class="form-name"> 
+        <div class="pop-up-form">
+        <button class="icon-close" id="icon-close"></button>
+            <form>
+                <div class="form-name">
                     <label for="check-9">
                     Ваше имя:<br>
-                    <input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="check-9"></label> 
-                </div> 
-                <div class="form-email"> 
+                    <input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="check-9"></label>
+                </div>
+                <div class="form-email">
                     <label for="check-10">
                     Ваш e-mail:<br>
-                    <input type="email" name="email" placeholder="Для отправки ответа" id="check-10"></label> 
-                </div> 
-                <div class="form-text clearfix"> 
+                    <input type="email" name="email" placeholder="Для отправки ответа" id="check-10"></label>
+                </div>
+                <div class="form-text clearfix">
                     <label for="check-11">
                     Текст письма:<br>
-                    <textarea name="text" placeholder="В свободной форме" id="check-11"></textarea></label> 
-                </div> 
-                <input type="submit" name="btn" value="Отправить"> 
-            </form> 
+                    <textarea name="text" placeholder="В свободной форме" id="check-11"></textarea></label>
+                </div>
+                <input type="submit" name="btn" value="Отправить">
+            </form>
         </div>
 
-        <script src="js/map.js" type="text/javascript"></script>
-        <script src="js/pop-up.js" type="text/javascript"></script>
+        <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script src="js/map-min.js" type="text/javascript"></script>
+        <script src="js/pop-up-min.js" type="text/javascript"></script>
 
     </body>
 

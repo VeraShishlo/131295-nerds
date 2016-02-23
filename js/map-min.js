@@ -1,0 +1,2 @@
+ymaps.ready(function(){var a=new ymaps.Map("map",{center:[59.938667,30.323073],zoom:6},{searchControlProvider:"yandex#search"}),b=new ymaps.Placemark(a.getCenter(),{hintContent:"\u0421\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0437\u043d\u0430\u0447\u043e\u043a \u043c\u0435\u0442\u043a\u0438",balloonContent:"\u042d\u0442\u043e \u043a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u043c\u0435\u0442\u043a\u0430"},{iconLayout:"default#image",iconImageHref:"img/logo-map.png",iconImageSize:[180,
+190],iconImageOffset:[-3,-42]});a.geoObjects.add(b)});
